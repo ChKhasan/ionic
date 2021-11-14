@@ -116,6 +116,10 @@ line-height: 18px;
 letter-spacing: 0em;
 text-align: left;
 color: #2D4665 !important;
+transition: .2s;
+&:hover {
+    color: $color2 !important;
+}
 
 }
 .nav-end {

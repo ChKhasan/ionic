@@ -130,6 +130,12 @@ a {
   letter-spacing: 0em;
   text-align: left;
   color: #2D4665 !important;
+  -webkit-transition: .2s;
+  transition: .2s;
+}
+
+.nav-link:hover {
+  color: #1B6DFF !important;
 }
 
 .nav-end p {
