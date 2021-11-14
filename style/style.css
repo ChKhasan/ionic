@@ -194,6 +194,11 @@ a {
   color: #03060B;
 }
 
+.fon p {
+  margin-top: 45px;
+  margin-bottom: 30px;
+}
+
 .inbtn {
   color: #1B6DFF !important;
   background: transparent !important;
