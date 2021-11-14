@@ -571,12 +571,12 @@ text-align: center;
 }
 @media screen and (max-width: 768px) {
 
-            .yy {
-                h1 {
-                    font-size: 40px !important;
+.yy {
+    h1 {
+ font-size: 40px !important;
   line-height: 42px !important;
 
-                }
+         }
             }
     .fon {
         display: flex;
@@ -586,15 +586,12 @@ text-align: center;
               display: none;
           }
           h1 {
-      text-align: center;
-font-size: 68px !important;
-line-height: 62px;
+font-size: 58px !important;
+line-height: 52px;
 
 
           }
-          p {
-              text-align: center;
-          }
+        
       }
 .phone {
     h1 {
@@ -603,3 +600,38 @@ line-height: 44px !important;
     }
 }
 }
+@media screen and (max-width: 500px) {
+    h1 {
+        font-size: 30px !important;
+         line-height: 32px !important;
+       
+                }
+    .yy {
+        h1 {
+     font-size: 30px !important;
+      line-height: 32px !important;
+    
+             }
+                }
+        .fon {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+              img {
+                  display: none;
+              }
+              h1 {
+    font-size: 48px !important;
+    line-height: 42px !important;
+    
+    
+              }
+            
+          }
+    .phone {
+        h1 {
+            font-size: 31px !important;
+    line-height: 34px !important;
+        }
+    }
+    }
